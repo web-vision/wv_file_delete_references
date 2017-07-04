@@ -1,0 +1,26 @@
+{
+    "name": "web-vision/wv_file_delete_references",
+    "type": "typo3-cms-extension",
+    "description": "Adds a button to files in filelist to delete the file and all corresponding references.",
+    "homepage": "http://web-vision.de",
+    "license": ["GPL-2.0+"],
+    "autoload": {
+        "psr-4": {
+            "WebVision\\WvFileDeleteReferences\\": "Classes"
+        }
+    },
+    "require-dev": {
+        "typo3/cms": "~7.6",
+        "php": ">=5.6.0"
+    },
+    "authors": [
+        {
+            "name": "Yannick Hermes",
+            "email": "y.hermes@web-vision.de",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/web-vision/wv_file_delete_references"
+    }
+}

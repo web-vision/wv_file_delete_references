@@ -1,0 +1,21 @@
+config {
+    tx_extbase {
+        persistence {
+            classes {
+                WebVision\WvFileDeleteReferences\Domain\Model\FileReference {
+                    mapping {
+                        tableName = sys_file_reference
+                        columns {
+                            uid_foreign.mapOnProperty = uidForeign
+                            tablenames.mapOnProperty = tablenames
+                            title.mapOnProperty = title
+                            sys_language_uid.mapOnProperty = sysLanguageUid
+                            deleted.mapOnProperty = deleted
+                            hidden.mapOnProperty = hidden
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
