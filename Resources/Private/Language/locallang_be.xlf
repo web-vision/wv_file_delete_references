@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-06-29T18:00:00Z" product-name="wv_file_delete_references">
+        <header/>
+        <body>
+            <trans-unit id="mess.deleteReferences" xml:space="preserve">
+                <source>Do you really want to delete this file with all of it's references? This cannot be undone by history module!</source>
+             </trans-unit>
+             <trans-unit id="cm.deleteReferences" xml:space="preserve">
+                <source>Delete with References</source>
+             </trans-unit>
+
+             <trans-unit id="message.description.fileDeleted" xml:space="preserve">
+                <source>The file "%s" and all of it's references were successfully deleted.</source>
+             </trans-unit>
+             <trans-unit id="message.header.fileDeleted" xml:space="preserve">
+                <source>Deleted with References</source>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>
